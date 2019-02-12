@@ -7,7 +7,7 @@ app.get('/angularjs',function(req,res){
   res.sendfile('src/index.html');
 });
 
-app.get('/ng', function (req, res) {
+app.get('/ng/*', function (req, res) {
   res.sendfile('ng-app/index.html');
 });
  
