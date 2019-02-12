@@ -37,4 +37,5 @@ $: cd angularjs && node server
 1) Build angular app
 2) Copy angular2 folder located inside angular2/dist to the angularjs folder and rename it to ng-app
 3) add /ng-app/ to the scripts src inside ng-app/index.html file
-4) Restart angularjs server
+4) change line 6 in ng-app/index.html from <base href="/"> to <base href="/ng">
+5) Restart angularjs server
