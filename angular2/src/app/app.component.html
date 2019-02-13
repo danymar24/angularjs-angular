@@ -1,3 +1,12 @@
-<h2>Angular App</h2>
+<nav class="">
+    <div class="container-fluid">
+        <ul class="">
+            <li><a href="/angularjs">Home</a></li>
+            <li><a href="/angularjs#/about">About</a></li>
+            <li><a href="/angularjs#/more">More</a></li>
+            <li><a [routerLink]="['/contact']">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
 <router-outlet></router-outlet>

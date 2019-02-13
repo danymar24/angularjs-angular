@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+nav {
+    background-color: #101010;
+
+    li {
+        display: inline-block;
+        padding: 15px 0;
+
+        a {
+            color: white;
+            padding: 15px 10px;
+
+            &:hover {
+                text-decoration: none;
+                color: white;
+                background-color: #8c8c8c;
+            }
+        }
+    }
+}
